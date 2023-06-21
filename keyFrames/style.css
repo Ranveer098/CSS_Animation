@@ -1,0 +1,21 @@
+.box {
+  height: 200px;
+  width: 200px;
+  border: 5px solid green;
+  background-color: aliceblue;
+  animation: expand 1s infinite;
+}
+
+@keyframes expand {
+  0% {
+    width: 800px;
+    height: 500px;
+  }
+  50%{
+    width: 600px;
+  }
+  100% {
+    width: 400px;
+    height: 200px;
+  }
+}
