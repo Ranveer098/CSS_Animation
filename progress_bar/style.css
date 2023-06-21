@@ -1,0 +1,16 @@
+.wrapper{
+  border: 2px solid black;
+  height: 50px;
+}
+.progress{
+  background: green;
+  width: 0%;
+  height: 100%;
+  transition: width 4s  ease-in-out;
+
+}
+.wrapper:hover .progress{
+  width: 85%;
+  
+
+}
